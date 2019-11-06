@@ -1,0 +1,26 @@
+{
+    "name": "maks/array",
+    "description": "Maks Array Util",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Maks T.",
+            "email": "MaksBrainiac@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "symfony/var-dumper": "4.3.*",
+        "symfony/var-exporter": "4.3.*",
+        "nikic/php-parser": "4.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": ""
+        }
+    }
+}
